@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Better Reader",
+  	"version": "1.0",
+
+  	"description": "Adds an import action to the toolbar. Click the button and add your Readwise Reader API key to import the article to your Reader account. Manages table of contents/information hierarchies better than Reader's native import (in my experience, hopefully the same is true for you!).",
+  	
+  	"permissions": ["activeTab", "storage"],
+  	
+ 	"browser_action": {
+ 		"default_title": "Better Reader",
+ 		"default_popup": "popup/import.html"
+ 	},
+ 	
+ 	"options_ui": {
+ 		"page": "options.html"
+ 	}
+ 	
+ 	"browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com"
+    }
+ 	
+}
